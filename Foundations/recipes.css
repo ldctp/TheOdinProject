@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+html{
+    background-color: #ffedf5;
+}
+body{
+    background-color: #fffafc;   
+    border-radius: 25%;
+    box-shadow: 5px 5px 5px 5px #ffbfda;
+    height:50em;
+    margin: 20px;
+    padding: 4em 0 0 4em;
+}   
+header{
+    ;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Fredoka One;
+}
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -25px;
+}
+section {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+.recippic {
+    width: 15em;
+    height: 20em;
+}
+.recipe {
+    display: flex;
+    grid-gap: 4rem;
+    text-align: center;
+    width:80%;  
+    
+}
+
+#vanilla:hover {
+    background-color: #ffbfda
+}
+
+#strawberry:hover {
+    background-color: #ffbfda
+}
+
+#marshmallow:hover {
+    background-color: #ffbfda
+}
