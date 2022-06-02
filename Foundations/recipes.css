@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mali:wght@300&display=swap');
 
 html{
     background: url(https://static.vecteezy.com/system/resources/previews/004/552/725/original/cupcake-pattern-seamless-background-hand-drawn-in-cartoon-style-use-for-print-wallpaper-party-birthday-free-vector.jpg);
@@ -25,7 +25,7 @@ header{
 h1 {
     text-align: center;
     font-size: 4rem;
-    font-family: Fredoka One;
+    font-family: Fredoka One, cursive;
     font-weight: 200;
     
 }
@@ -33,24 +33,38 @@ h2 {
     text-align: center;
     font-size: 1rem;
     margin-top: -25px;
+    font-family: 'Mali', cursive;
 }
 
 .recippic {
     width: 15em;
     height: 20em;
+    padding: 0em 0em 2em 0em;
 }
 .recipe {
     display: flex;
-    
+    position: fixed;
+    justify-content: center;
     grid-gap: 4rem;
-    text-align: center;
-    width:80%;  
-    margin: auto;
+    font-size: 1rem;
+    width:100%;  
 }
 
-#vanilla:hover {
-    background-color: #ffbfda
+.link {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0em 0em 2em 0em;
+    color:black;
+    font-family: 'Mali', cursive;
+    text-decoration: none;
 }
+
+
+#vanilla:hover {
+    background-color: #ffbfda;
+}
+
 
 #strawberry:hover {
     background-color: #ffbfda
