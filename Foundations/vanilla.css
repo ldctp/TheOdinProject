@@ -28,8 +28,14 @@ h2 {
 .recippic {
     width: 25em;
     height: 35em;
+    margin: 0 5em 0 5em;
 }
 
 #recipe {
     display: flex;
+    margin: 0 5em 0 5em;
+}
+
+h3, h4, p, ul {
+    font-family: 'Mali', cursive;
 }
